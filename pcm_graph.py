@@ -194,7 +194,7 @@ if __name__ == '__main__':
     parser.add_argument(
         'input', help='Path to the CSV file that contains the PCM results')
     parser.add_argument(
-        '-o', '--output', help='Path to output file. Defaults to %input%.png')
+        '-o', '--output', help='Path to output file. Defaults to %%input%%.png')
     parser.add_argument('-n', '--nodes', default='all',
                         help='List of nodes to plot (e.g., 0,1,2,3)')
     parser.add_argument('-p', '--percentages', action='store_true',
