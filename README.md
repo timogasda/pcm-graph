@@ -1,6 +1,15 @@
 # pcm-graph
 Tool that plots graphs from the CSV output of Intel PCM (Processor Counter Monitor)
 
+## Requirements
+This script has been tested with Python 2.7, but should also work with Python 3.
+
+The `matplotlib` library is required. Either install it with `pip install matplotlib` or use the `requirements.txt` file in this repository:
+
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 You can generate CSV output with the Intel PCM tool like so:
 
